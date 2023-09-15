@@ -1,0 +1,32 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "Simple CRUD application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/judeshenal/book_management.git"
+  },
+  "author": "Shenal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/judeshenal/book_management/issues"
+  },
+  "homepage": "https://github.com/judeshenal/book_management#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
